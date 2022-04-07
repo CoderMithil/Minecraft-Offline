@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MINECRAFT</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="body_background">
+
+	<center>
+		<br>
+		<h5>
+			<button style="width:15%" class="btn-danger" id="control" onclick="controls();">How to Play?</button>
+		</h5>
+		<br>
+		
+		<h4>
+			<b id="note">NOTE : IF PLAYER IS NOT VISIBLE PRESS ANY ARROW KEY
+		</h4>
+	<h2 class="btn-primary">MINECRAFT</h2>
+
+	<div id="head_info" class="btn-danger">
+		<h3>Current Width of Block  = <span id="current_width">30 </span></h3>
+		<h3>Current Height of Block  = <span id="current_height">30 </span></h3>
+	</div>
+	<canvas id="myCanvas" width="850" height="550"></canvas>
+	<br>
+	<br>
+	<button style="width:15% " style="position: right; " class="btn-danger" id="logout" onclick="logout();">Logout</button>
+
+	</center>
+	
+	<script src="minecraft.js"></script>
+</body>
+</html>
